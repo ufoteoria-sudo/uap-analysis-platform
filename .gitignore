@@ -5,6 +5,7 @@
 /.idea
 .vscode
 /.turbo
+.vite
 npm-debug.log
 yarn-error.log
 coverage
