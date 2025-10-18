@@ -22,18 +22,44 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
         <Route path="/subscribe" component={Subscribe} />
+        <Route path="/dashboard/upload">
+          <DashboardLayout>
+            <Upload />
+          </DashboardLayout>
+        </Route>
+        <Route path="/dashboard/analysis">
+          <DashboardLayout>
+            <Analysis />
+          </DashboardLayout>
+        </Route>
+        <Route path="/dashboard/database">
+          <DashboardLayout>
+            <Database />
+          </DashboardLayout>
+        </Route>
+        <Route path="/dashboard/reports">
+          <DashboardLayout>
+            <Reports />
+          </DashboardLayout>
+        </Route>
+        <Route path="/dashboard/account">
+          <DashboardLayout>
+            <Account />
+          </DashboardLayout>
+        </Route>
+        <Route path="/dashboard/subscription">
+          <DashboardLayout>
+            <Subscription />
+          </DashboardLayout>
+        </Route>
+        <Route path="/dashboard/admin">
+          <DashboardLayout>
+            <Admin />
+          </DashboardLayout>
+        </Route>
         <Route path="/dashboard">
           <DashboardLayout>
-            <Switch>
-              <Route path="/dashboard/upload" component={Upload} />
-              <Route path="/dashboard/analysis" component={Analysis} />
-              <Route path="/dashboard/database" component={Database} />
-              <Route path="/dashboard/reports" component={Reports} />
-              <Route path="/dashboard/account" component={Account} />
-              <Route path="/dashboard/subscription" component={Subscription} />
-              <Route path="/dashboard/admin" component={Admin} />
-              <Route component={Upload} />
-            </Switch>
+            <Upload />
           </DashboardLayout>
         </Route>
         <Route component={NotFound} />
