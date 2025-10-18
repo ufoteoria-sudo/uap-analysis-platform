@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 export default function Upload() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
@@ -27,9 +27,7 @@ export default function Upload() {
             className="mb-4"
             accept=".json,.csv,.xml"
           />
-          {selectedFile && (
-            <p className="text-slate-600 mb-4">Selected: {selectedFile.name}</p>
-          )}
+          {selectedFile && <p className="text-slate-600 mb-4">Selected: {selectedFile.name}</p>}
           <button
             onClick={handleUpload}
             disabled={!selectedFile}

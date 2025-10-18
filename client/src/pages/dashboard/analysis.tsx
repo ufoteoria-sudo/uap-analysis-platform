@@ -19,8 +19,8 @@ export default function Analysis() {
                     job.status === 'Completed'
                       ? 'bg-green-100 text-green-800'
                       : job.status === 'Processing'
-                        ? 'bg-blue-100 text-blue-800'
-                        : 'bg-slate-100 text-slate-800'
+                      ? 'bg-blue-100 text-blue-800'
+                      : 'bg-slate-100 text-slate-800'
                   }`}
                 >
                   {job.status}

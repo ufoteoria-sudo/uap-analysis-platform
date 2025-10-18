@@ -15,9 +15,7 @@ export default function Account() {
       <div className="bg-white rounded-lg shadow-md p-8 max-w-2xl">
         <div className="space-y-6">
           <div>
-            <label className="block text-sm font-medium text-slate-700 mb-2">
-              Full Name
-            </label>
+            <label className="block text-sm font-medium text-slate-700 mb-2">Full Name</label>
             <input
               type="text"
               value={name}
@@ -26,9 +24,7 @@ export default function Account() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-slate-700 mb-2">
-              Email Address
-            </label>
+            <label className="block text-sm font-medium text-slate-700 mb-2">Email Address</label>
             <input
               type="email"
               value={email}

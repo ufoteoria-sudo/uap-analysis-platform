@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'wouter';
 
 export default function Login() {
@@ -50,7 +50,7 @@ export default function Login() {
           </button>
         </form>
         <p className="mt-4 text-center text-sm text-slate-600">
-          Don't have an account?{' '}
+          Don&apos;t have an account?{' '}
           <Link href="/register">
             <a className="text-blue-600 hover:text-blue-700">Register</a>
           </Link>

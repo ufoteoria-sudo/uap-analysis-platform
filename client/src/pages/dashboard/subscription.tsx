@@ -45,10 +45,7 @@ export default function Subscription() {
               <span className="font-semibold">{currentPlan.used}</span>
             </div>
             <div className="w-full bg-slate-200 rounded-full h-2 mt-4">
-              <div
-                className="bg-blue-600 h-2 rounded-full"
-                style={{ width: '45%' }}
-              />
+              <div className="bg-blue-600 h-2 rounded-full" style={{ width: '45%' }} />
             </div>
           </div>
         </div>

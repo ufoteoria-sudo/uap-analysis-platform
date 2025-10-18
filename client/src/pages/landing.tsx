@@ -5,9 +5,7 @@ export default function Landing() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
       <div className="container mx-auto px-4 py-16">
         <header className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-slate-900 mb-4">
-            UAP Analysis Platform
-          </h1>
+          <h1 className="text-5xl font-bold text-slate-900 mb-4">UAP Analysis Platform</h1>
           <p className="text-xl text-slate-600 mb-8">
             Advanced analysis and reporting for UAP data
           </p>
