@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>UAP Analysis Platform — Página</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <h1 class="logo">UAP Analysis Platform</h1>
+        <nav class="nav">
+          <a href="#home">Inicio</a>
+          <a href="#about">Acerca</a>
+          <a href="#features">Características</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="wrap">
+          <h2>Analiza imágenes de forma sencilla</h2>
+          <p class="lead">Plataforma ligera para subir imágenes y obtener análisis automatizados — versión web estática de demostración.</p>
+          <p><a class="btn" href="#contact">Contáctanos</a></p>
+        </div>
+      </section>
+
+      <section id="about" class="wrap section">
+        <h3>¿Qué es esto?</h3>
+        <p>Esta es una página de presentación (static site). Si quieres una app con backend la integramos después.</p>
+      </section>
+
+      <section id="features" class="wrap section features">
+        <h3>Características</h3>
+        <ul>
+          <li>Página ligera y rápida (solo HTML/CSS/JS).</li>
+          <li>Se publica fácilmente en GitHub Pages o Netlify.</li>
+          <li>Formulario de contacto de ejemplo (no envía correos — muestra mensaje localmente).</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="wrap section contact">
+        <h3>Contacto</h3>
+        <form id="contactForm" class="contact-form">
+          <label>
+            Tu nombre
+            <input type="text" name="name" placeholder="Nombre" required />
+          </label>
+          <label>
+            Tu email
+            <input type="email" name="email" placeholder="tu@correo.com" required />
+          </label>
+          <label>
+            Mensaje
+            <textarea name="message" placeholder="Escribe tu mensaje" required></textarea>
+          </label>
+          <button type="submit" class="btn">Enviar (local)</button>
+          <p id="contactResult" class="muted"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <small>© UAP Analysis Platform — Demo estática</small>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
